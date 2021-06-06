@@ -36,7 +36,7 @@
                         <img
                             id="imagen_personal"
                             class="rounded float-end"
-                            src="/images/foto_personal.jpg"
+                            src="./images/foto_personal.jpg"
                             alt="Natalia Casanovas"
                         />
                     </div>
@@ -47,7 +47,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">
                     <img id="icono-n"
-                        src="images/logo2.png"
+                        src="./images/logo2.png"
                         width="30"
                         height="30"
                         class="d-inline-block align-top"
@@ -100,7 +100,7 @@
                 </h5>
             </div>
             <div class="col-4">
-                <img id="computadora" src="images/computadora.jpg" />
+                <img id="computadora" src="./images/computadora.jpg" />
             </div>
         </div>
 
@@ -648,10 +648,6 @@
         <script>
             $(document).ready(function () {
                 $(window).scroll(function () {
-                    //if you hard code, then use console
-                    //.log to determine when you want the
-                    //nav bar to stick.
-                    console.log($(window).scrollTop());
                     if ($(window).scrollTop() > 280) {
                         $(".navbar").addClass("navbar-fixed");
                     }
